@@ -1,0 +1,16 @@
+<svg width="99" height="18" viewBox="0 0 99 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>img_divider</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(4088 -121)">
+<g id="img_divider">
+<use xlink:href="#path0_fill" transform="translate(-4088 121)" fill="url(#paint0_linear)"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-98 -0 -0 -17.5397 109.46 8.828)">
+<stop offset="0" stop-color="#B4CDD8"/>
+<stop offset="1" stop-color="#F7E4D6"/>
+</linearGradient>
+<path id="path0_fill" fill-rule="evenodd" d="M 85.32 0L 76.307 9.012L 67.296 0L 58.309 8.985L 49.324 0L 40.313 9.01L 31.303 0L 22.317 8.985L 13.331 0L 0 13.33L 4.326 17.656L 13.331 8.651L 22.298 17.656L 31.302 8.651L 40.307 17.656L 49.323 8.651L 58.291 17.656L 67.295 8.651L 76.299 17.656L 85.32 8.651L 94.287 17.656L 98.65 13.33L 85.32 0Z"/>
+</defs>
+</svg>

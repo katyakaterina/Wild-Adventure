@@ -1,0 +1,25 @@
+<svg width="229" height="210" viewBox="0 0 229 210" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>img_floating_triangle</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(2969 -2430)">
+<g id="img_floating_triangle" filter="url(#filter0_d)">
+<use xlink:href="#path0_fill" transform="translate(-2939 2430)" fill="url(#paint0_linear)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="-2969" y="2430" width="229" height="210" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="40"/>
+<feGaussianBlur stdDeviation="15"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-106.3 -160.415 192.602 -88.5359 168.09 181.44)">
+<stop offset="0" stop-color="#8B94AC"/>
+<stop offset="1" stop-color="#DFC9C3"/>
+</linearGradient>
+<path id="path0_fill" fill-rule="evenodd" d="M 84.0446 0L 0 140L 168.09 140L 84.0446 0ZM 84.0446 38.6018L 131.998 118.482L 36.0911 118.482L 84.0446 38.6018Z"/>
+</defs>
+</svg>

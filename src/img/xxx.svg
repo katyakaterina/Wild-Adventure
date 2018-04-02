@@ -1,0 +1,16 @@
+<svg width="218" height="39" viewBox="0 0 218 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>img_xxx</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(3547 -2285)">
+<g id="img_xxx">
+<use xlink:href="#path0_fill" transform="translate(-3547 2285)" fill="url(#paint0_linear)"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-216.013 -0 -0 -38.6346 241.273 19.4454)">
+<stop offset="0" stop-color="#B4CDD8"/>
+<stop offset="1" stop-color="#F7E4D6"/>
+</linearGradient>
+<path id="path0_fill" fill-rule="evenodd" d="M 31.8198 0L 38.8909 7.07104L 26.5166 19.4453L 38.8909 31.8198L 31.8198 38.8909L 19.4453 26.5166L 7.07104 38.8909L 0 31.8198L 12.3745 19.4453L 0 7.07104L 7.07104 0L 19.4453 12.3745L 31.8198 0ZM 127.891 7.07104L 120.82 0L 108.445 12.3745L 96.071 0L 89 7.07104L 101.375 19.4453L 89 31.8198L 96.071 38.8909L 108.445 26.5166L 120.82 38.8909L 127.891 31.8198L 115.517 19.4453L 127.891 7.07104ZM 210.374 0L 217.445 7.07104L 205.071 19.4453L 217.445 31.8198L 210.374 38.8909L 198 26.5166L 185.625 38.8909L 178.554 31.8198L 190.929 19.4453L 178.554 7.07104L 185.625 0L 198 12.3745L 210.374 0Z"/>
+</defs>
+</svg>

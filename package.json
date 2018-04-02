@@ -1,0 +1,40 @@
+{
+  "name": "trial",
+  "version": "1.0.0",
+  "description": "Верстка тестового задания",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "autoprefixer": "^8.2.0",
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-rename": "^1.2.2",
+    "pump": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-posthtml": "^3.0.4",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katyakaterina/trial-project-.git"
+  },
+  "keywords": [
+    "trial"
+  ],
+  "author": "Kate Konstantinova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katyakaterina/trial-project-/issues"
+  },
+  "homepage": "https://github.com/katyakaterina/trial-project-#readme"
+}

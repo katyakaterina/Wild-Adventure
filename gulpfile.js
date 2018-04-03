@@ -36,8 +36,21 @@ gulp.task('watch', ['browser-sync', 'html', 'img', 'mincss', 'scripts'], functio
       gulp.watch('./*.html', browserSync.reload);
       gulp.watch('src/js/**/*.js', browserSync.reload);
       gulp.watch('src/img/*.+(jpg|jpeg|png|gif)', browserSync.reload);
-    });
+});
    
+// gulp.task('sass', function () {
+//     return gulp.src(['src/style/main.scss'])
+//     .pipe(sass({outputStyle: 'expanded'})
+//     .on('error', sass.logError))
+//     .pipe(autoprefixer({
+//        browsers: ['last 2 versions'],
+//        cascade: false
+//      }))
+//     .pipe(gulp.dest('dist/css'))
+//     .pipe(cssnano())
+//     .pipe(rename({suffix: 'main.css'})) 
+// });
+
     gulp.task('sass:watch', function () {
     gulp.watch('./sass/**/*.scss', ['sass']);
       });

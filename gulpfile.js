@@ -42,9 +42,9 @@ gulp.task('watch', ['browser-sync', 'html', 'img', 'mincss', 'scripts'], functio
     gulp.watch('./sass/**/*.scss', ['sass']);
       });
 gulp.task('mincss', function () {
-    return gulp.src('src/style/style.css')  //если обычный 
-    // return gulp.src('src/**/*.scss')  //если сасс
-    // .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError)) //сасс
+    // return gulp.src('src/style/style.css')  //если обычный 
+    return gulp.src('src/**/*.scss')  //если сасс
+    .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError)) //сасс
     .pipe(postcss([ autoprefixer('last 2 versions')]))  //последних двух версий браузера
         .pipe(csso())
         .pipe(rename({suffix: '.min'}))

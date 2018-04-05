@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" src="dist/main.css">
+    <link rel="preload" href="dist/css/main.css" as="style" onload="this.rel='stylesheet'">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
     <title>Wild Adventure</title>
 </head>
 <body>
     <header class="header">
-        <nav class="navigation">
-            <section class="menu">
+         <nav class="navigation">
+            <section class="menu"> 
                 <div class="logo">
                     <a class="logo__link" href="#">
                     <svg width="97" height="21" viewBox="0 0 97 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -56,33 +57,228 @@
         </nav>
     </header>
     <main class="main">
-        <section class="intro">
-            <div class="intro__inner">
-                <h1 class="intro__title">Adventure</h1>
-                <h2 class="intro__subtitle">Let your life be an</h2>
-                <button class="intro__btn btn"></button>
-            </div>
-        </section>
-        <section class="promo">
-            <div class="promo__inner">
-                <h2 class="promo__title">Impressive</h2>
-                <h3 class="promo__subtitle">Shots of the week.</h3>
-                <div class="promo__user">
-                    <img class="promo__img" src="src/img/user1.png">
-                    <p class="promo__name">By Jonathan Bean</p>
+        <section class="cover">
+            <div class="cover__inner">
+                <div class="cover__intro">
+                    <h1 class="cover__title">Adventure</h1>
+                    <h2 class="cover__subtitle">Let your life be an</h2>
+                    <button class="cover__btn btn"></button>
+                </div>
+                <div class="cover__promo">
+                    <h2 class="cover__promo-title title">Impressive</h2>
+                    <h3 class="cover__promo-subtitle">Shots of the week.</h3>
+                    <div class="cover__user">
+                        <img class="cover__img" src="src/img/user1.png" alt="Jonathan Bean">
+                        <p class="cover__name">By Jonathan Bean</p>
+                   </div>
+                   <div class="cover__photo"> 
+                        <!-- СДЕЛАТЬ ТЕГ picture
+                             добавить изображения 2x, webp -->
+                        <img class="cover__img" src="src/img/mount.jpg" alt="Mountains">
+                        <img class="cover__img" src="src/img/sunset.jpg" alt="Sunset">
+                        <img class="cover__img" src="src/img/sky.jpg" alt="Sky">
+                        <img class="cover__img" src="src/img/horse.jpg" alt="Horse">
+                        <img class="cover__img" src="src/img/landscape.jpg" alt="Landscape">
+                        <span class="circle">
+                            <span class="circle__inner">
+                                <span class="circle__circle"></span>
+                            </span>
+                        </span>
+                    </div>
+                    <a class="cover__link" href="#">See all</a>
                 </div>
             </div>
-            <div class="promo__photo"> 
-                <!-- СДЕЛАТЬ ТЕГ picture
-                     добавить изображения 2x, webp -->
-                <img class="promo__img" src="src/img/mount.jpg">
-                <img class="promo__img" src="src/img/sunset.jpg">
-                <img class="promo__img" src="src/img/sky.jpg">
-                <img class="promo__img" src="src/img/horse.jpg">
-                <img class="promo__img" src="src/img/landscape.jpg">
-            </div>
-            <a class="promo__link" href="#">See all</a>
         </section>
+        <section class="about">
+            <h2 class="about__title title">About</h2>
+            <h3 class="about__subtitle">Home to everyone's best photos</h3>
+            <p class="about__article"><b>Wild_</b>is a photo community and marketplace for discovering, 
+                sharing, buying, and selling inspiring photography powered by creative people around the world.</p>
+            <p class="about__article">In our community, you can share your photos worldwide. 
+                From mobile photographers to professionals, <b>Wild_</b> has the products and 
+                features to take your photography to the next level.</p>
+            <p class="about__article">We are a photography community unlike any other. 
+                We help you to explore 50 million inspiring photos, 
+                to connect with other enthusiasts and to learn more about the craft.</p>
+            <a class="about__link" href="#">Lern more</a>
+        </section>
+        <section class="gallery">
+            <div class="gallery__inner">
+                <h2 class="gallery__title title">Gallery</h2>
+                <div class="gallery__item">
+                    <img class="gallery__img" src="" alt="Foam - by Jonathan Bean">
+                    <div class="gallery__box">
+                        <p class="gallery__caption">Foam</p>
+                        <span class="gallery__descr">Nov 9, 2015</span> 
+                    </div>
+                    <img class="gallery__img" src="" alt="Waterfalls - by Jonathan Bean">
+                    <div class="gallery__box">
+                        <p class="gallery__caption">Pontneddfechan Waterfalls</p>
+                        <span class="gallery__descr">Oct 17, 2015</span> 
+                    </div>
+                    <img class="gallery__img" src="" alt="Mocean - by Jonathan Bean">
+                    <div class="gallery__box">
+                        <p class="gallery__caption">Mocean</p>
+                        <span class="descr">Oct 2, 2015</span>
+                    </div>
+                    <img class="gallery__img" src="" alt="Freshwater West - by Jonathan Bean">
+                    <div class="gallery__box">
+                        <p class="gallery__caption">Freshwater West</p>
+                        <span class="descr">Sep 13, 2015</span>
+                    </div>
+                </div>
+                <a class="gallery__link" href="#">Explore gallery</a>
+            </div>
+        </section>
+        <section class="review">
+            <h2 class="review__title title">Journal</h2>
+            <div class="review__number">
+                <h3 class="review__title">714</h3>
+                <a class="review__link">Shared stories</a>
+            </div>
+            <div class="review__box">
+                <h3>Weekly Topics</h3>
+                <h4>Written by people like you</h4>
+                <div class="review__story">
+                     <h4 class="review__caption">The Summit</h4>
+                     <p class="review__article">You only live once. A phrase adopted and since-overused by popular culture, 
+                    it is actually rooted in truth. You should always be pushing your boundaries, 
+                    striving for your most difficult goals, and scaring yourself every day with something new.
+                     </p>
+                    <div class="review__user-box user-box">
+                        <img class="review__img" src="" alt="Filip Osklen">
+                        <span class="review__user user">Filip Osklen</span>
+                   </div>
+               </div>
+               <div class="review__story">
+                     <h4 class="review__caption">Other Worldly</h4>
+                     <p class="review__article">It’s rainy today; the fire in the stove is burning brightly. 
+                    The house enfolds me in its lustrous timber walls with their fine scent of wood. It’s doing me good to be in Leis. 
+                    I am just sitting here, quite still, looking.
+                     </p>
+                    <div class="review__user-box user-box">
+                       <img class="review__img" src="" alt="Rachel Robert">
+                       <span class="review__user user">Rachel Robert</span>
+                    </div>
+               </div>
+            </div>
+    </section>
+    <section class="vision">
+        <div>
+            <img src="src/img/beach.png" alt="Beach">
+            <div>
+                <h4>Day by day</h4>
+                <h5>Adventure</h5>
+                <p>With all the outstanding images and stories shared daily by our community, 
+                    we wanted to create something that would let you tap into those reserves of inspiration.</p>
+                <div class="user-box">
+                    <img src="" alt="Dana Galicia">
+                    <span class="user">Dana Galicia</span>
+                </div>
+            </div>
+            <div>
+                <h4>Let others see the beauty of the world captured by your eyes.</h4>
+                <p>Be part of the community.</p>
+                <a href="#">Join us</a>
+            </div>
+        </div>
+        <div>
+            <h4>Featured stories</h4>
+            <div>
+                <img src="src/img/photography.png" alt="Photo's deer">
+                <h5>Photography</h5>
+                <p class="descr">A night to remember</p>
+                <span>by Dana Galicia</span>
+            </div>
+            <div>
+                <img src="src/img/video.png" alt="Photo's child">
+                <h5>Video</h5>
+                <p class="descr">Little shots of happiness</p>
+                <span>by Leanne Whitney</span>
+            </div>
+            <div>
+                <img src="src/img/exposition.png" alt="Something">
+                <h5>Exposition</h5>
+                <p class="descr">Nocturna</p>
+                <span>by Jake Verow</span>
+            </div>
+            <div>
+                <img src="src/img/mountain(750x450).png" alt="Lake">
+                <h3>Place</h3>
+                <p>The story of each</p>
+                <a href="#">Explore</a>
+            </div>
+        </div>
+    </section>
+    <section class="contacts">
+        <div>
+            <h2 class="title">Contact</h2>
+            <span class="circle">
+                    <span class="circle__inner">
+                        <span class="circle__circle"></span>
+                    </span>
+                </span>
+                </div>
+        <div class="left">
+            <div>
+                <h4>Get in touch</h4>
+                <p>We’re here for you</p>
+                <div class="diagram">
+                    <img src="src/img/diagram.png" alt="Static">
+                </div>
+                <span>923 Video Makers</span>
+                <span>1.622 Photographers</span>
+                <span>601 Motion Designers</span>
+            </div>
+            <img src="src/img/team.png" alt="team">
+        </div>
+        <div class="right">
+            <form>
+                <fieldset>
+                    <input type="text" placeholder="Your name is?">
+                    <label></label>
+                    <input type="email" placeholder="Email">
+                    <label></label>
+                    <textarea placeholder="Message..."></textarea>
+                    <button type="submit">Say hello</button>
+                </fieldset>
+            </form>
+        </div>
+        <div>
+            <svg width="256" height="54" viewBox="0 0 256 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Canvas" transform="translate(3966 -5458)"><g id="logo"><g id="retangule">
+                    <use xlink:href="#path0_fill" transform="translate(-3890.34 5475.67)" fill="#E0E6E9"/></g>
+                    <g id="WILD"><use xlink:href="#path1_fill" transform="translate(-3965.3 5458.64)" fill="#E0E6E9"/></g></g></g>
+                    <defs><path id="path0_fill" fill-rule="evenodd" d="M 0 0L 50.3402 0L 50.3402 13.3333L 0 13.3333L 0 0Z"/>
+                    <path id="path1_fill" fill-rule="evenodd" 
+                    d="M 62.5543 53.36L 77.7359 0L 59.6929 0L 52.9367 32.64L 44.9088 0L 32.8271 0L 24.7992 32.64L 17.9635 0L 0 0L 15.1815 53.36L 32.0323 53.36L 38.8679 23.12L 45.7036 53.36L 62.5543 53.36ZM 97.1301 53.36L 97.1301 0L 81.0742 0L 81.0742 53.36L 97.1301 53.36ZM 141.88 53.36L 141.88 39.28L 121.77 39.28L 121.77 0L 105.714 0L 105.714 53.36L 141.88 53.36ZM 172.084 53.36C 188.696 53.36 201.096 43.68 201.096 26.64C 201.096 9.6 188.696 0 172.005 0L 148.318 0L 148.318 53.36L 172.084 53.36ZM 172.005 39.2801L 164.374 39.2801L 164.374 14.0801L 172.084 14.0801C 180.668 14.0801 184.802 19.4401 184.802 26.6401C 184.802 33.3601 180.032 39.2801 172.005 39.2801Z"/>
+                    </defs>
+            </svg>
+            <h5>Learn more</h5>  
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <h5>About</h5>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <h5>Support</h5>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </section>
     </main>
     <footer class="footer">
         <section class="">

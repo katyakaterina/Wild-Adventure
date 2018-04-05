@@ -1,14 +1,14 @@
 @import '_variables.scss';
 @import '_mixins.scss';
 @import 'normalize.scss';
+@import '_font-face.scss';
 
 @import 'global/body.scss';
 @import 'header/header.scss';
 @import 'footer/footer.scss';
-@import 'main-content/intro.scss';
-@import 'main-content/promo-gallery.scss';
+@import 'main-content/cover.scss';
 @import 'main-content/about.scss';
 @import 'main-content/gallery.scss';
 @import 'main-content/review.scss';
-@import 'main-content/presentation.scss';
+@import 'main-content/vision.scss';
 @import 'main-content/contacts.scss';

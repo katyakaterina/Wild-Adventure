@@ -47,9 +47,9 @@
                         <a class="menu__link" href="#">Contact</a>
                     </li>
                     <li class="menu__item">
-                        <form>
-                            <input type="search">
-                            <label></label>
+                        <form class="menu__form">
+                            <input class="menu__search" type="search">
+                            <label class="menu__label"></label>
                         </form>
                     </li>
                 </ul>
@@ -60,7 +60,7 @@
         <section class="cover">
             <div class="cover__inner">
                 <div class="cover__intro">
-                    <h1 class="cover__title">Adventure</h1>
+                    <h1 class="cover__title cover__title--headline">Adventure</h1>
                     <h2 class="cover__subtitle">Let your life be an</h2>
                     <button class="cover__btn btn"></button>
                 </div>
@@ -72,23 +72,23 @@
                         <p class="cover__name">By Jonathan Bean</p>
                    </div>
                    <div class="cover__photo"> 
-                       <picture>
+                       <picture class="cover__picture">
                            <source media="(min-width: 1024px)" srcset="src/img/mount-2x.jpg 2x, src/img/mount.jpg 1x" type="image/jpg">
                            <img class="cover__img" src="src/img/mount.jpg" alt="Mountains"> 
                        </picture>
-                       <picture>
+                       <picture class="cover__picture">
                            <source media="(min-width: 1024px)" srcset="src/img/sunset-2x.jpg 2x, src/img/sunset.jpg 1x" type="image/jpg">
                            <img class="cover__img" src="src/img/sunset.jpg" alt="Sunset"> 
                        </picture>
-                       <picture>
+                       <picture class="cover__picture">
                            <source media="(min-width: 1024px)" srcset="src/img/night-sky-2x.jpg 2x, src/img/night-sky.jpg 1x" type="image/jpg">
                            <img class="cover__img" src="src/img/night-sky.jpg" alt="Night Sky">
                        </picture>
-                       <picture>
+                       <picture class="cover__picture">
                            <source media="(min-width: 1024px)" srcset="src/img/horse-2x.jpg 2x, src/img/horse.jpg 1x" type="image/jpg">
                            <img class="cover__img" src="src/img/horse.jpg" alt="Beautiful Horse">
                        </picture>
-                       <picture>
+                       <picture class="cover__picture">
                            <source media="(min-width: 1024px)" srcset="src/img/nature-2x.jpg 2x, src/img/nature.jpg 1x" type="image/jpg">
                            <img class="cover__img" src="src/img/nature.jpg" alt="Nature"> 
                        </picture>
@@ -116,47 +116,59 @@
             <a class="about__link" href="#">Lern more</a>
         </section>
         <section class="gallery">
+            <h2 class="gallery__title title">Gallery</h2>
             <div class="gallery__inner">
-                <h2 class="gallery__title title">Gallery</h2>
                 <div class="gallery__item">
-                    <picture>
+                    <figure>
+                    <picture class="gallery__picture">
                         <source media="(min-width: 1024px)" srcset="src/img/foam-2x.jpg 2x, src/img/foam.jpg 1x" type="image/jpg">
-                        <img class="gallery__img" src="src/img/foam.jpg" alt="Foam - by Jonathan Bean">
+                        <img class="gallery__img" src="src/img/foam.jpg" width="316px" height="274px" alt="Foam - by Jonathan Bean">
                     </picture>
-                    <div class="gallery__box">
+                    <figcaption class="gallery__signature">Foam<br>Nov 9, 2015</figcaption>
+                    <!-- <div class="gallery__box">
                         <p class="gallery__caption">Foam</p>
-                        <span class="gallery__descr">Nov 9, 2015</span> 
-                    </div>
+                        <span class="gallery__description">Nov 9, 2015</span> 
+                    </div> -->
+                    </figure>
                 </div>
                 <div class="gallery__item">
-                    <picture>
+                    <figure>
+                    <picture class="gallery__picture">
                         <source media="(min-width: 1024px)" srcset="src/img/Pontneddfechan-2x.jpg 2x, src/img/Pontneddfechan.jpg 1x" type="image/jpg">
-                        <img class="gallery__img" src="src/img/Pontneddfechan.jpg" alt="Waterfalls - by Jonathan Bean">
+                        <img class="gallery__img" src="src/img/Pontneddfechan.jpg" width="316px" height="274px" alt="Waterfalls - by Jonathan Bean">
                     </picture>
-                    <div class="gallery__box">
+                    <figcaption class="gallery__signature">Pontneddfechan Waterfalls<br>Oct 17, 2015</figcaption>
+                    <!-- <div class="gallery__box">
                         <p class="gallery__caption">Pontneddfechan Waterfalls</p>
-                        <span class="gallery__descr">Oct 17, 2015</span> 
-                    </div>
+                        <span class="gallery__description">Oct 17, 2015</span> 
+                    </div> -->
+                    </figure>
                 </div>
                 <div class="gallery__item">
-                    <picture>
+                    <figure>
+                    <picture class="gallery__picture">
                         <source media="(min-width: 1024px)" srcset="src/img/Mocean-2x.jpg 2x, src/img/Mocean.jpg 1x" type="image/jpg">
-                        <img class="gallery__img" src="src/img/Mocean.jpg" alt="Mocean - by Jonathan Bean">   
+                        <img class="gallery__img" src="src/img/Mocean.jpg" width="316px" height="274px" alt="Mocean - by Jonathan Bean">   
                     </picture>
-                    <div class="gallery__box">
+                    <figcaption class="gallery__signature">Mocean<br>Oct 2, 2015</figcaption>
+                    <!-- <div class="gallery__box">
                         <p class="gallery__caption">Mocean</p>
-                        <span class="descr">Oct 2, 2015</span>
-                    </div>
+                        <span class="description">Oct 2, 2015</span>
+                    </div> -->
+                    </figure>
                 </div>
                 <div class="gallery__item">
-                    <picture>
+                    <figure>
+                    <picture class="gallery__picture">
                         <source media="(min-width: 1024px)" srcset="src/img/Freshwater West-2x.jpg 2x, src/img/Freshwater West.jpg 1x" type="image/jpg">
-                        <img class="gallery__img" src="src/img/Freshwater West.jpg" alt="Freshwater West - by Jonathan Bean">    
+                        <img class="gallery__img" src="src/img/Freshwater West.jpg" width="316px" height="274px" alt="Freshwater West - by Jonathan Bean">    
                     </picture>
-                    <div class="gallery__box">
+                    <figcaption class="gallery__signature">Freshwater West<br>Sep 13, 2015</figcaption>
+                    <!-- <div class="gallery__box">
                         <p class="gallery__caption">Freshwater West</p>
-                        <span class="descr">Sep 13, 2015</span>
-                    </div>
+                        <span class="description">Sep 13, 2015</span>
+                    </div> -->
+                    </figure>
                 </div>
               <a class="gallery__link" href="#">Explore gallery</a>  
             </div>
@@ -167,18 +179,20 @@
                 <h3 class="review__title">714</h3>
                 <a class="review__link">Shared stories</a>
             </div>
+            <div class="review__titles">
+                <h3 class="review__title">Weekly Topics</h3>
+                <span class="review__tagline">Written by people like you</span>
+            </div>
             <div class="review__box">
-                <h3>Weekly Topics</h3>
-                <span>Written by people like you</span>
                 <div class="review__story">
                      <h4 class="review__caption">The Summit</h4>
                      <p class="review__article">You only live once. A phrase adopted and since-overused by popular culture, 
                     it is actually rooted in truth. You should always be pushing your boundaries, 
                     striving for your most difficult goals, and scaring yourself every day with something new.
                      </p>
-                    <div class="review__user-box user-box">
-                        <img class="review__img" src="" alt="Filip Osklen">
-                        <span class="review__user user">Filip Osklen</span>
+                    <div class="user-box">
+                        <img class="user-box__img" src="" alt="Filip Osklen">
+                        <span class="user-box__name">Filip Osklen</span>
                    </div>
                </div>
                <div class="review__story">
@@ -187,90 +201,86 @@
                     The house enfolds me in its lustrous timber walls with their fine scent of wood. It’s doing me good to be in Leis. 
                     I am just sitting here, quite still, looking.
                      </p>
-                    <div class="review__user-box user-box">
-                       <img class="review__img" src="" alt="Rachel Robert">
-                       <span class="review__user user">Rachel Robert</span>
+                    <div class="user-box">
+                       <img class="user-box__img" src="" alt="Rachel Robert">
+                       <span class="user-box__name">Rachel Robert</span>
                     </div>
                </div>
             </div>
     </section>
     <section class="vision">
-        <div>
-            <picture>
+        <div class="vision__box">
+            <picture class="vision__picture">
                 <source media="(min-width: 1024px)" srcset="src/img/beach-2x.jpg 2x, src/img/beach.jpg 1x" type="image/jpg">
-                <img src="src/img/beach.png" alt="Exciting view">   
+                <img class="vision__img" src="src/img/beach.png" alt="Exciting view">   
             </picture>
-            <div>
-                <h4>Day by day</h4>
-                <span>Adventure</span>
-                <p>With all the outstanding images and stories shared daily by our community, 
+            <div class="vision__content">
+                <h4 class="vision__caption">Day by day</h4>
+                <span class="vision__tagline">Adventure</span>
+                <p class="vision__comment">With all the outstanding images and stories shared daily by our community, 
                     we wanted to create something that would let you tap into those reserves of inspiration.</p>
                 <div class="user-box">
-                    <img src="" alt="Dana Galicia">
-                    <span class="user">Dana Galicia</span>
+                    <img class="user-box__img" src="" alt="Dana Galicia">
+                    <span class="user-box__name">Dana Galicia</span>
                 </div>
-            </div>
-            <div>
-                <h4>Let others see the beauty of the world captured by your eyes.</h4>
-                <p>Be part of the community.</p>
-                <a href="#">Join us</a>
+                <p class="vision__note">Let others see the beauty of the world captured by your eyes.</p>
+                <span class="vision__tagline">Be part of the community.</span>
+                <a class="vision__link" href="#">Join us</a>
             </div>
         </div>
-        <div>
-            <h4>Featured stories</h4>
-            <div>
+        <div class="vision__box">
+            <h4 class="vision__caption vision__caption--thin">Featured stories</h4>
+            <div class="vision__item">
                 <img src="src/img/photography.png" alt="Photo's deer">
                 <h5>Photography</h5>
                 <p class="descr">A night to remember</p>
                 <span>by Dana Galicia</span>
             </div>
-            <div>
+            <div class="vision__item">
                 <img src="src/img/video.png" alt="Photo's child">
                 <h5>Video</h5>
                 <p class="descr">Little shots of happiness</p>
                 <span>by Leanne Whitney</span>
             </div>
-            <div>
+            <div class="vision__item">
                 <img src="src/img/exposition.png" alt="Something">
                 <h5>Exposition</h5>
                 <p class="descr">Nocturna</p>
                 <span>by Jake Verow</span>
             </div>
-            <div>
-                <picture>
+                <picture class="vision__picture">
                     <source media="(min-width: 1024px)" srcset="src/img/lake-2x.jpg 2x, src/img/lake.jpg 1x" type="image/jpg">
                     <img src="src/img/lake.jpg" alt="Lake">    
                 </picture>
-                <h3>Place</h3>
-                <p>The story of each</p>
-                <a href="#">Explore</a>
-            </div>
+                <h3 class="vision__caption vision__caption--md">Place</h3>
+                <p class="vision__subtitle">The story of each</p>
+                <a class="vision__link" href="#">Explore</a>
         </div>
     </section>
     <section class="contacts">
-        <div>
-            <h2 class="title">Contact</h2>
+        <div class="contacts__wrapper">
+            <h2 class="contacts__title title">Contact</h2>
             <span class="circle">
                     <span class="circle__inner">
                         <span class="circle__circle"></span>
                     </span>
                 </span>
-                </div>
-        <div class="left">
-            <div>
-                <h4>Get in touch</h4>
-                <p>We’re here for you</p>
+        </div>
+        <div class="contacts__left">
+            <div class="contacts__fact">
+                <h4 class="contacts__subtitle">Get in touch</h4>
+                <p class="contacts__tagline">We’re here for you</p>
                 <div class="diagram"></div>
-                <span>923 Video Makers</span>
-                <span>1.622 Photographers</span>
-                <span>601 Motion Designers</span>
+                <span class="contacts__data">923 Video Makers</span>
+                <span class="contacts__data">1.622 Photographers</span>
+                <span class="contacts__data">601 Motion Designers</span>
             </div>
-            <picture>
+            <picture class="contacts__picture">
                 <source media="(min-width: 1024px)" srcset="src/img/team-2x.jpg 2x, src/img/team.jpg 1x" type="image/jpg">
                 <img src="src/img/team.png" alt="team">    
             </picture>
         </div>
-        <div class="right">
+        <div class="contacts__right">
             <form>
                 <fieldset>
                     <legend></legend>

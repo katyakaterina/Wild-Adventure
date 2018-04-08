@@ -2,16 +2,7 @@ body{
     font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
     margin: 0 auto;
     box-sizing: border-box;
-}
-.title{
-    font-size: 55px;
-    color: #4E4E4E;
-    font-weight: 400;
-    text-transform: uppercase;
-}
-li{
-    list-style: none;
-}
-fieldset{
-    border: none;
+    // min-width: 320px;
+    min-width: 1600px;
+    width: 100%;
 }

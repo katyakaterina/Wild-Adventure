@@ -1,4 +1,81 @@
 .cover{
+   
+       background: url(/src/img/cover.png);
+    //    background-position: center;
+       background-repeat: no-repeat; 
+       background-size: 100% 82%;
+    //    width: 1600px;
+    //    height: 1450px;
+       margin: 0 auto;
+    
+
+    &__intro{
+        width: 566px;
+        margin: 0 auto;
+        text-align: center;
+        // padding-top: 160px;
+        // padding-bottom: 90px;
+        padding: 160px 0 90px 0;
+    }
+
+    &__title{
+        width: 560px;
+        font-size: 115px;
+        margin: 0;
+        font-weight: 300;
+        color: $white;
+        text-transform: uppercase;
+        margin: 0 auto;
+    }
+
+    &__subtitle{
+        width: 365px;
+        font-size: 50px;
+        font-weight: 300;
+        color: $white;
+        margin: 0 auto;
+    }
+
+    &__btn{
+        border: 1px solid $white;
+        background: transparent;
+        width: 250px;
+        height: 71px;
+        border-radius: 40px;
+        color: $white;
+        font-size: 25px;
+        font-weight: 300;
+        margin-top: 30px;
+    }
+    
+    &__promo{
+        display: flex;
+        align-items: flex-end;
+        width: 1130px;
+        margin: 0 auto;
+    }
+    &__promo-title{
+        width: 210px;
+        margin: 0;
+    }
+    &__promo-subtitle{
+        font-size: 19px;
+        font-weight: 700;
+        color: $title;
+    }
+    &__wrap{
+        align-self: center;
+    }
+    &__photo{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        flex-direction: column;
+        height: 500px;
+    }
+    &__picture{
+        margin: 5px;
+    }
     &__img{
         border: 13px solid #f2f5f6;
     }
@@ -7,8 +84,8 @@
 
 .circle{
     position: relative;
-    top: 0;
-    left: 0;
+    top: -140px;
+    left: 245px;
     &__inner{
         position: absolute;
         content: "";

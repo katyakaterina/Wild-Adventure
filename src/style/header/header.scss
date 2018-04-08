@@ -1,0 +1,28 @@
+header{
+    width: 1500px;
+    height: 91px;
+    margin: 0 auto; 
+}
+.menu{
+    margin: 0 auto;
+
+    &__list{
+        width: 1500px;
+        height: 91px;
+        background-color: #ffff;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+    }
+    &__logo{
+        flex-grow: 6;
+    }
+    &__item{
+        flex-grow: 1;
+    }
+    &__link{
+        text-transform: uppercase;
+        color: $menuLink;
+    }
+}

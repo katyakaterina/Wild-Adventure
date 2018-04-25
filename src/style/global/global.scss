@@ -3,13 +3,24 @@
     color: $title;
     font-weight: 400;
     text-transform: uppercase;
+    text-shadow: 1px 1px rgba(0,0,0,0.1);
 }
 a{
     text-decoration: none;
+    color: $linkColor;
 }
 li{
     list-style: none;
 }
 fieldset{
     border: none;
+}
+.user-box{
+    display: flex;
+   
+    &__name{
+        margin-left: 15px;
+        align-self: center;
+        font-weight: 300;
+    }
 }

@@ -10,6 +10,8 @@
     
 
     &__intro{
+        display: flex;
+        flex-direction: column;
         width: 566px;
         margin: 0 auto;
         text-align: center;
@@ -19,6 +21,7 @@
     }
 
     &__title{
+        order: 2;
         width: 560px;
         font-size: 115px;
         margin: 0;
@@ -37,6 +40,8 @@
     }
 
     &__btn{
+        order: 3;
+        align-self: center;
         border: 1px solid $white;
         background: transparent;
         width: 250px;
@@ -46,12 +51,16 @@
         font-size: 25px;
         font-weight: 300;
         margin-top: 30px;
+        outline: none;
+    }
+    &__btn:hover{
+        box-shadow: 1px 1px rgba(0,0,0,0.22);
     }
     
     &__promo{
         display: flex;
         align-items: flex-end;
-        width: 1130px;
+        width: 1120px;
         margin: 0 auto;
     }
     &__promo-title{
@@ -77,21 +86,25 @@
         margin: 5px;
     }
     &__img{
-        border: 13px solid #f2f5f6;
+        border: 5px solid #f2f5f6;
+    }
+    &__link{
+        flex-basis: 435px;
+        text-align: end;
     }
 }
 
 
 .circle{
     position: relative;
-    top: -140px;
+    top: -30px;
     left: 245px;
     &__inner{
         position: absolute;
         content: "";
-        top: -100px;
+        top: -125px;
         left: 0;
-        border: 1px solid transparent;
+        // border: 1px solid transparent;
         background: linear-gradient(45deg, #E8C5B6, #B0B6C0);
         box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 0px 0px rgba(0,0,0,0.22);
         width: 140px;
@@ -103,8 +116,8 @@
         content: "";
         top: 20px;
         left: 19px;
-        border: 1px solid white;
-        background-color: white;
+        border: 1px solid rgba(255, 255, 255, 0);
+        background-color: rgba(255, 255, 255, 1);
         width: 99px;
         height: 99px;
         border-radius: 50%;

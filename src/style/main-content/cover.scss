@@ -23,7 +23,7 @@
     &__title{
         order: 2;
         width: 560px;
-        font-size: 115px;
+        font-size: 80px;
         margin: 0;
         font-weight: 300;
         color: $white;
@@ -33,7 +33,7 @@
 
     &__subtitle{
         width: 365px;
-        font-size: 50px;
+        font-size: 38px;
         font-weight: 300;
         color: $white;
         margin: 0 auto;
@@ -44,17 +44,18 @@
         align-self: center;
         border: 1px solid $white;
         background: transparent;
-        width: 250px;
-        height: 71px;
+        width: 165px;
+        height: 60px;
         border-radius: 40px;
         color: $white;
-        font-size: 25px;
+        font-size: 24px;
+        line-height: 1;
         font-weight: 300;
-        margin-top: 30px;
+        margin-top: 25px;
         outline: none;
     }
     &__btn:hover{
-        box-shadow: 1px 1px rgba(0,0,0,0.22);
+        box-shadow: 1px 4px 20px rgba(0,0,0,0.1);
     }
     
     &__promo{
@@ -97,29 +98,30 @@
 
 .circle{
     position: relative;
-    top: -30px;
+    top: -85px;
     left: 245px;
     &__inner{
         position: absolute;
         content: "";
-        top: -125px;
+        top: -115px;
         left: 0;
         // border: 1px solid transparent;
-        background: linear-gradient(45deg, #E8C5B6, #B0B6C0);
-        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 0px 0px rgba(0,0,0,0.22);
-        width: 140px;
-        height: 140px;
+        background: linear-gradient(45deg, transparent, #B0B6C0);
+        box-shadow: 0 10px 28px rgba(0,0,0,0.25), 0 0px 0px rgba(0,0,0,0.22);
+        width: 79px;
+        height: 79px;
         border-radius: 50%;
     }
     &__circle{
         position: absolute;
         content: "";
-        top: 20px;
-        left: 19px;
-        border: 1px solid rgba(255, 255, 255, 0);
+        top: 12px;
+        left: 12px;
+        // border: 1px solid rgba(255, 255, 255, 0);
+        border: none;
         background-color: rgba(255, 255, 255, 1);
-        width: 99px;
-        height: 99px;
+        width: 55px;
+        height: 55px;
         border-radius: 50%;
         }
 }

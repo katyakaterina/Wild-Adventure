@@ -1,14 +1,15 @@
 .about{
-    width: 1120px;
+    min-width: 1120px;
+    width: 100%;
     margin: 0 auto;
 
     &__article{
-        width: 833px;
-        font-size: 31px;
+        width: 24em;
+        font-size: 1em;
         font-weight: 300;
     }
     &__subtitle{
-        font-size: 31px;
+        font-size: 14px;
         font-weight: 300;
     }
 }

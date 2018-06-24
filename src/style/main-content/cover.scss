@@ -1,3 +1,12 @@
+@media (min-width: 320px){
+    .cover{
+     background-color: none;   
+    }
+
+}
+@media (min-width: 640px){
+
+
 .cover{
    
        background: url(/src/img/cover.png);
@@ -67,8 +76,9 @@
     &__promo{
         display: flex;
         align-items: flex-end;
-        width: 1120px;
-        margin: 0 auto;
+        min-width: 1120px;
+        width: 100%;
+        justify-content: center;
     }
     &__promo-title{
         width: 180px;
@@ -80,7 +90,8 @@
         color: $title;
     }
     &__wrap{
-        align-self: center;
+        align-self: flex-start;
+        padding: 7px;
     }
     &__photo{
         display: flex;
@@ -130,4 +141,5 @@
         height: 55px;
         border-radius: 50%;
         }
+}
 }
